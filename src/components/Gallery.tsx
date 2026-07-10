@@ -56,7 +56,11 @@ export default function Gallery() {
           {photos.map((p, i) => (
             <button
               key={i}
-              onClick={() => setActive(i)}
+              type="button"
+              onClick={(event) => {
+                event.preventDefault();
+                setActive(i);
+              }}
               className="group relative rounded-2xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-rose-400 focus:ring-offset-2"
               aria-label={`Ver foto: ${p.alt}`}
             >

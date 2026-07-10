@@ -74,7 +74,8 @@
   }
 
   document.querySelectorAll('.gallery-item').forEach(btn => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', (event) => {
+      event.preventDefault();
       openLightbox(
         btn.dataset.src,
         btn.dataset.caption,
