@@ -26,9 +26,12 @@ export default function MapSection() {
                   <MapPin size={18} />
                 </div>
                 <div>
-                  <p className="font-semibold text-warm-800 text-sm mb-1">Endereço</p>
+                  <p className="font-semibold text-warm-800 text-sm mb-1">Endereços</p>
                   <p className="text-warm-500 text-sm leading-relaxed">
                     Rua Borja Reis, 139, São Jorge, Queimados – RJ, CEP 26181-390
+                  </p>
+                  <p className="text-warm-500 text-sm leading-relaxed mt-2">
+                    Av. das Américas, 12.300, Sala 125, Condomínio Blue Center Mall - Barra da Tijuca - RJ
                   </p>
                 </div>
               </div>
